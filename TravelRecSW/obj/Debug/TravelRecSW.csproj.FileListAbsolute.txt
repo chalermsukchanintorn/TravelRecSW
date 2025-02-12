@@ -1,0 +1,15 @@
+C:\sau2567\TravelRecSW\TravelRecSW\bin\Debug\TravelRecSW.exe.config
+C:\sau2567\TravelRecSW\TravelRecSW\bin\Debug\TravelRecSW.exe
+C:\sau2567\TravelRecSW\TravelRecSW\bin\Debug\TravelRecSW.pdb
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.csproj.AssemblyReference.cache
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.Properties.Resources.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.csproj.GenerateResource.cache
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.csproj.CoreCompileInputs.cache
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.exe
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.pdb
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmLogin.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmRegister.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmTravelOpt.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmProfile.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmTravelAdd.resources
+C:\sau2567\TravelRecSW\TravelRecSW\obj\Debug\TravelRecSW.FrmTravelEdit.resources
