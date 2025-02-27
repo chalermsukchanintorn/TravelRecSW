@@ -84,6 +84,7 @@
             this.tsbtAdd.Size = new System.Drawing.Size(126, 20);
             this.tsbtAdd.Text = "เพิ่ม";
             this.tsbtAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtAdd.Click += new System.EventHandler(this.tsbtAdd_Click);
             // 
             // tsbtEdit
             // 
@@ -93,6 +94,7 @@
             this.tsbtEdit.Size = new System.Drawing.Size(126, 20);
             this.tsbtEdit.Text = "แก้ไข";
             this.tsbtEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtEdit.Click += new System.EventHandler(this.tsbtEdit_Click);
             // 
             // tsbtDelete
             // 
@@ -123,6 +125,7 @@
             this.tsbtToFrmLogin.Size = new System.Drawing.Size(126, 20);
             this.tsbtToFrmLogin.Text = "ออกจากระบบ";
             this.tsbtToFrmLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtToFrmLogin.Click += new System.EventHandler(this.tsbtToFrmLogin_Click);
             // 
             // dgvTravel
             // 
@@ -181,6 +184,7 @@
             this.Name = "FrmTravelOpt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "การเดินทางของฉัน - Travel Rec SW V.1.0";
+            this.Load += new System.EventHandler(this.FrmTravelOpt_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTravel)).EndInit();

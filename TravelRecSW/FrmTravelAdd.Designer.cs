@@ -80,6 +80,7 @@
             this.btSelectTravelImage.TabIndex = 40;
             this.btSelectTravelImage.Text = "เลือกรูปการเดินทาง";
             this.btSelectTravelImage.UseVisualStyleBackColor = true;
+            this.btSelectTravelImage.Click += new System.EventHandler(this.btSelectTravelImage_Click);
             // 
             // dtpTravelEndDate
             // 
@@ -122,7 +123,7 @@
             // 
             // tbTravelPlace
             // 
-            this.tbTravelPlace.Location = new System.Drawing.Point(66, 126);
+            this.tbTravelPlace.Location = new System.Drawing.Point(69, 126);
             this.tbTravelPlace.Name = "tbTravelPlace";
             this.tbTravelPlace.Size = new System.Drawing.Size(188, 20);
             this.tbTravelPlace.TabIndex = 34;
@@ -181,6 +182,7 @@
             this.tsbtSave.Size = new System.Drawing.Size(126, 20);
             this.tsbtSave.Text = "บันทึก";
             this.tsbtSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtSave.Click += new System.EventHandler(this.tsbtSave_Click);
             // 
             // tsbtCancel
             // 
@@ -190,6 +192,7 @@
             this.tsbtCancel.Size = new System.Drawing.Size(126, 20);
             this.tsbtCancel.Text = "ยกเลิก";
             this.tsbtCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtCancel.Click += new System.EventHandler(this.tsbtCancel_Click);
             // 
             // toolStripLabel1
             // 
@@ -211,6 +214,7 @@
             this.tsbtToFrmLogin.Size = new System.Drawing.Size(126, 20);
             this.tsbtToFrmLogin.Text = "การเดินทางของฉัน";
             this.tsbtToFrmLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtToFrmLogin.Click += new System.EventHandler(this.tsbtToFrmLogin_Click);
             // 
             // FrmTravelAdd
             // 

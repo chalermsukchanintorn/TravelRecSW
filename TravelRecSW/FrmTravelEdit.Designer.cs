@@ -235,6 +235,7 @@
             this.Name = "FrmTravelEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "แก้ไขการเดินทาง - Travel Rec SW V.1.0";
+            this.Load += new System.EventHandler(this.FrmTravelEdit_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);

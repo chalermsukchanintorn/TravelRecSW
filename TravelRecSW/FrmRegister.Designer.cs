@@ -74,6 +74,7 @@
             this.btSelectTravellerImage.TabIndex = 3;
             this.btSelectTravellerImage.Text = "Select your image";
             this.btSelectTravellerImage.UseVisualStyleBackColor = true;
+            this.btSelectTravellerImage.Click += new System.EventHandler(this.btSelectTravellerImage_Click);
             // 
             // panel1
             // 
@@ -133,6 +134,7 @@
             this.tbTravellerPasswordConfirm.PasswordChar = '*';
             this.tbTravellerPasswordConfirm.Size = new System.Drawing.Size(188, 20);
             this.tbTravellerPasswordConfirm.TabIndex = 13;
+            this.tbTravellerPasswordConfirm.Enter += new System.EventHandler(this.tbTravellerPasswordConfirm_Enter);
             // 
             // tbTravellerPassword
             // 
@@ -141,6 +143,7 @@
             this.tbTravellerPassword.PasswordChar = '*';
             this.tbTravellerPassword.Size = new System.Drawing.Size(188, 20);
             this.tbTravellerPassword.TabIndex = 12;
+            this.tbTravellerPassword.Enter += new System.EventHandler(this.tbTravellerPassword_Enter);
             // 
             // label4
             // 
@@ -184,6 +187,7 @@
             this.tsbtSave.Size = new System.Drawing.Size(126, 20);
             this.tsbtSave.Text = "บันทึก";
             this.tsbtSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtSave.Click += new System.EventHandler(this.tsbtSave_Click);
             // 
             // tsbtCancel
             // 
@@ -193,6 +197,7 @@
             this.tsbtCancel.Size = new System.Drawing.Size(126, 20);
             this.tsbtCancel.Text = "ยกเลิก";
             this.tsbtCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtCancel.Click += new System.EventHandler(this.tsbtCancel_Click);
             // 
             // toolStripLabel1
             // 
@@ -214,6 +219,7 @@
             this.tsbtToFrmLogin.Size = new System.Drawing.Size(126, 20);
             this.tsbtToFrmLogin.Text = "เข้าใช้งานระบบ";
             this.tsbtToFrmLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtToFrmLogin.Click += new System.EventHandler(this.tsbtToFrmLogin_Click);
             // 
             // cbConfirm
             // 

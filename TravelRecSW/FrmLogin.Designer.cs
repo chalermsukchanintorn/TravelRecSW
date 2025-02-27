@@ -94,6 +94,7 @@
             this.btLogin.TabIndex = 6;
             this.btLogin.Text = "เข้าใช้งานระบบ";
             this.btLogin.UseVisualStyleBackColor = true;
+            this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
             // lbToFrmRegister
             // 
@@ -105,6 +106,7 @@
             this.lbToFrmRegister.TabIndex = 7;
             this.lbToFrmRegister.Text = "ลงทะเบียนผู้ใช้งานใหม่";
             this.lbToFrmRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbToFrmRegister.Click += new System.EventHandler(this.lbToFrmRegister_Click);
             // 
             // pictureBox1
             // 
